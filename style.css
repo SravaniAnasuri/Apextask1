@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: whitesmoke;
+}
+
+header {
+    background: #fffacd;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+}
+
+main {
+    padding: 15px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.gallery-images {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Center images */
+}
+
+.gallery-images img {
+    width: 100%; /* Adjust the width as needed */
+    margin-bottom: 20px; /* Space between images */
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    color: aliceblue;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px; 
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    display: inline flex;
+    margin-bottom: 10px;
+    width: 300px; /* Set a fixed width */
+    max-width: 100%; /* Ensure responsiveness */
+}
+
+form textarea {
+    height: 80px; /* Decreased height for textarea */
+}
+
+form button {
+    padding: 8px; /* Decreased padding */
+    background: plum;
+    border: 2px solid #6a2c91; /* Added border */
+    border-radius: 4px; /* Optional: rounded corners */
+    cursor: pointer;
+    width: 150px; /* Set a fixed width */
+    font-size: 14px; /* Adjust font size */
+    transition: background 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+form button:hover {
+    background: #6a2c91; /* Darker shade on hover */
+    border-color: #4b1d61; /* Darker border color on hover */
+    color: white; /* Change text color on hover */
+}
+
